@@ -3,15 +3,36 @@ Your netid
 
 Copy/Paste results from PercolationStats using PercolationDFS
 
+simulation data for 20 trials
+grid    mean    stddev  time
+100 0.593   0.014   1.321
+200 0.591   0.010   14.368
+400 0.590   0.006   191.747
 
 Copy/Paste results from PercolationStats using PercolationDFSFast
-
+simulation data for 20 trials
+grid    mean    stddev  time
+100 0.593   0.014   0.210
+200 0.591   0.010   0.229
+400 0.590   0.006   1.300
+800 0.594   0.004   6.873
 
 Copy/Paste results from PercolationStats using PercolationBFS
-
+simulation data for 20 trials
+grid    mean    stddev  time
+100 0.593   0.014   0.181
+200 0.591   0.010   0.237
+400 0.590   0.006   1.135
+800 0.594   0.004   7.039
 
 Copy/Paste results from PercolationStats using PercolationUF 
 with the QuickUWPC UnionFind implementation.
+simulation data for 20 trials
+grid    mean    stddev  time
+100 0.593   0.014   0.105
+200 0.591   0.010   0.190
+400 0.590   0.006   0.851
+800 0.594   0.004   7.856
 
 1. How does doubling the grid size affect running time (keeping # trials fixed)
 
